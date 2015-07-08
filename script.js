@@ -37,6 +37,9 @@ $(document).ready(function () {
         }, function(stream){
             $('#myStream').prop('src', URL.createObjectURL(stream));
             myStream = stream;
+
+            // 全ユーザと接続を行う
+            connectToPeers();
         }, function(){
             console.error('getUserMedia error');
         });
@@ -73,7 +76,17 @@ $(document).ready(function () {
     }
 
     // ユーザリストを取得して片っ端から繋ぐ
-
+    function connectToPeers() {
+        peer.listAllPeers(function(list){
+            for(var cnt = 0;cnt < list.length;cnt++){
+                if(myPeerid != list[cnt]){
+                    var call = peer.call(list[cnt],myStream);
+                    setupCallEventHandlers(call);
+                    addCall(call);
+                }
+            }
+        });
+    }
 
 
     // コールの追加
