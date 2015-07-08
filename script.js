@@ -5,10 +5,7 @@
 $(document).ready(function () {
 
     // 定数宣言
-    const APIKEY = '0e95b7fa-7431-11e4-93f6-3d047b5b6c93';
-    const TURNSERVERHOST = '153.149.12.59';
-    const TURNUSERNAME = 'skyuser';
-    const TURNPASS = 'skypass';
+    const APIKEY = 'ad8276ac-56c9-436e-83ca-cbe9b38ec386';
 
     // グローバル変数
     var userList = [];
@@ -20,13 +17,7 @@ $(document).ready(function () {
     navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia;
 
     // Peerオブジェクトを生成
-    peer = new Peer({key: APIKEY,
-        config: { 'iceServers': [
-            { 'url': 'stun:stun.skyway.io:3478' },
-            { 'url': 'turn:'+TURNSERVERHOST+':3478?transport=udp','username':TURNUSERNAME,'credential':TURNPASS },
-            { 'url': 'turn:'+TURNSERVERHOST+':3478?transport=tcp','username':TURNUSERNAME,'credential':TURNPASS }
-        ] },
-        debug: 3});
+    peer = new Peer({key: APIKEY, debug: 3});
 
     // openイベントのハンドラ
     peer.on('open', function(id) {
