@@ -30,6 +30,16 @@ $(document).ready(function () {
     peer.on('open', function(id) {
         myPeerid = id;
         console.log('My peer ID is: ' + id);
+
+        navigator.getUserMedia({
+            audio: true,
+            video: true
+        }, function(stream){
+            $('#myStream').prop('src', URL.createObjectURL(stream));
+            myStream = stream;
+        }, function(){
+            console.error('getUserMedia error');
+        });
     });
 
     // callイベント用のハンドラを設置
