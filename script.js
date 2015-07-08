@@ -31,6 +31,7 @@ $(document).ready(function () {
         myPeerid = id;
         console.log('My peer ID is: ' + id);
 
+        // カメラ映像を取得して表示する
         navigator.getUserMedia({
             audio: true,
             video: true
