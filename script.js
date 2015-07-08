@@ -14,13 +14,17 @@ $(document).ready(function () {
     var peer = null;
 
     // getUserMediaのcompatibility
-
+    navigator.getUserMedia =  navigator.getUserMedia ||
+      navigator.webkitGetUserMedia ||
+      navigator.mozGetUserMedia;
 
     // Peerオブジェクトを生成
-
+    peer = new Peer({key: APIKEY, debug: 3});
 
     // エラーハンドラ
-
+    peer.on('error', function(err){
+        console.error(err);
+    });
 
     // openイベントのハンドラ
 
