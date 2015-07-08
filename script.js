@@ -67,7 +67,8 @@ $(document).ready(function () {
             addVideo(call,stream);
         });
 
-        // 相手からcloseイベントがきたらコネクションを切断して保存したcallオブジェクトを削除、対応するVIDEOS要素も削除
+        // 相手からcloseイベントがきたらコネクションを切断して保存した
+        // callオブジェクトを削除、対応するVIDEOS要素も削除
         call.on('close', function(){
             call.close();
             removeCall(call);
