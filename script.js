@@ -19,15 +19,10 @@ $(document).ready(function () {
       navigator.mozGetUserMedia;
 
     // Peerオブジェクトを生成
-    peer = new Peer({key: APIKEY, debug: 3});
 
     // エラーハンドラ
-    peer.on('error', function(err){
-        console.error(err);
-    });
 
     // openイベントのハンドラ
-
 
     // callイベント用のハンドラを設置
 
