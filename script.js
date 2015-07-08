@@ -5,7 +5,7 @@
 $(document).ready(function () {
 
     // 定数宣言
-    var APIKEY = 'XXXX-XXXX-XXXX-XXXX';
+    var APIKEY = 'ad8276ac-56c9-436e-83ca-cbe9b38ec386';
 
     // グローバル変数
     var callList = [];
