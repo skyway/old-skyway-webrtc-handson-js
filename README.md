@@ -1,4 +1,4 @@
-## Camphor NTTCom WebRTC Handson
+## NTTCom WebRTC Handson
 
 1. まずは手引をみてハンズオンの準備
  - https://github.com/skyway/webrtc-handson-js/wiki
