@@ -1,4 +1,4 @@
-## Camphor NTTCom WebRTC Handson Step 6
+## NTTCom WebRTC Handson Step 6
 
 ```
 // openイベントのハンドラ
