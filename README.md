@@ -1,4 +1,4 @@
-## Camphor NTTCom WebRTC Handson Step 3
+## NTTCom WebRTC Handson Step 3
 
 ``` javascript
 // openイベントのハンドラ
