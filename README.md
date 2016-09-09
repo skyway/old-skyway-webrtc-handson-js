@@ -1,4 +1,4 @@
-## Camphor NTTCom WebRTC Handson Step 5
+## NTTCom WebRTC Handson Step 5
 
 ``` javascript
 // callイベント用のハンドラを設置
