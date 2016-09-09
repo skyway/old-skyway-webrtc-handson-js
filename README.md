@@ -1,4 +1,4 @@
-## Camphor NTTCom WebRTC Handson Step 4
+## NTTCom WebRTC Handson Step 4
 
 ``` javascript
 // コールの追加
