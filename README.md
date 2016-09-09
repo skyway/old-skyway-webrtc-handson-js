@@ -1,9 +1,9 @@
 ## Camphor NTTCom WebRTC Handson
 
 1. まずは手引をみてハンズオンの準備
- - https://github.com/alanmshelly/camphor-webrtc-handson/wiki
+ - https://github.com/skyway/webrtc-handson-js/wiki
 2. つまったらステップ毎のブランチを参照
- - 例：https://github.com/alanmshelly/camphor-webrtc-handson/tree/handson_step1
+ - 例：https://github.com/skyway/webrtc-handson-js/tree/handson_step1
 
 ### チャレンジ課題
 
