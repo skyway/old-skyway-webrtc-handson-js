@@ -1,4 +1,4 @@
-## Camphor NTTCom WebRTC Handson Step 1
+## NTTCom WebRTC Handson Step 1
 ``` javascript
 // 定数宣言
 var APIKEY = 'XXXX-XXXX-XXXX-XXXX';
