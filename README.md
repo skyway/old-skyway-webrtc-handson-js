@@ -1,4 +1,4 @@
-## Camphor NTTCom WebRTC Handson Step 2
+## NTTCom WebRTC Handson Step 2
 ``` javascript
 // Peerオブジェクトを生成
 peer = new Peer({key: APIKEY, debug: 3});
