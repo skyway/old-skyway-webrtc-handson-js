@@ -39,7 +39,7 @@ $ open .
 
 #### Windows
 
-- Mongoose サーバ（[ダウンロード](https://cesanta.com/cgi-bin/api.cgi?act=dl&id=HHIEHJBHSK8H56TT&os=win)）がオススメ。
+- Mongoose サーバ（[ダウンロード](https://www.cesanta.com/products/binary)）がオススメ。
 - ソースコードが入っているフォルダーに入れて実行
 
 ### 1.2. SkyWayの開発者登録
