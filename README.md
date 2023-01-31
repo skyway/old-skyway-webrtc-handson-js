@@ -1,5 +1,10 @@
 # NTTCom WebRTC Handson
 
+**これは旧SkyWayのリポジトリです。[新しいSkyWay](<https://skyway.ntt.com>)への移行をご検討ください。**
+
+**This is the old SkyWay repository.  Please consider migrating to the [new SkyWay](<https://skyway.ntt.com>).**
+
+---
 # 1. 事前準備
 
 ### 1.1. ローカルサーバを立てる (立ってない人のみ)
